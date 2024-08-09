@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="FR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice Chapitre 6</title>
+    <meta name="description" content="Thomas Muller et son rôle exclusif du Raumdeuter expliquer.">
+    <meta name="keywords" content="football, Thomas Muller, Bayern Munich, Raumdeuter, Sport">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Thomas Muller",
+            "url": "https://fr.wikipedia.org/wiki/Thomas_M%C3%BCller_(football)",
+            "description": "Joueur de football professionnel allemand, célèbre pour son rôle de Raumdeuter au Bayern Munich et en équipe nationale d'Allemagne."
+        }
+    </script>
+    <style>
+        .highlight {
+            background-color: #ffffcc; /* Couleur de surbrillance */
+        }
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            background-color: #f8f8f8;
+            padding: 20px;
+           cursor: url('https://images.toucharger.com/img/graphiques/curseurs/animaux/chat/chat.68312.gif'), auto; /* URL du curseur personnalisé */
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        nav {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+        }
+
+        nav a:hover {
+            color: #0066cc;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: left;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav li:first-child {
+            float: left;
+        }
+
+        h1, h2, h3 {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease; /* Transition pour le zoom */
+        }
+
+        table {
+            border: 1px solid #333;
+            border-collapse: collapse;
+            width: 80%;
+            margin: 0 auto;
+        }
+
+
+        img.zoom:hover {
+            transform: scale(1.2); /* Effet de zoom */
+        }
+
+        .tooltip {
+            position: relative;
+            display: inline-block;
+        }
+
+        .tooltip .tooltiptext {
+            visibility: hidden;
+            width: 120px;
+            background-color: black;
+            color: #fff;
+            text-align: center;
+            border-radius: 5px;
+            padding: 5px 0;
+            position: absolute;
+            z-index: 1;
+            bottom: 125%; /* Positionne le tooltip au-dessus de l'élément */
+            left: 50%;
+            margin-left: -60px;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .tooltip:hover .tooltiptext {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        table {
+            border: 1px solid #333;
+            border-collapse: collapse;
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        th, td {
+            border: 1px solid #333;
+            padding: 8px;
+            text-align: center;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .fade {
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+        }
+
+        .show {
+            opacity: 1;
+        }
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .navbar a.active {
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="index.html">Page Javascript</a>
+        <a href="pagecss.html">Page CSS</a>
+        <a href="http://site-lekbir.lovestoblog.com/">Page WordPress</a>
+        <a href="pagehtml.html">Page HTML</a>
+    </div>
+    <header>
+        <h1>Le Raumdeuter</h1>
+    </header>
+    <nav>
+        <a href="#presentation">Présentation</a>
+        <a href="#qui_est_thomas_muller">Qui est Thomas Muller ?</a>
+        <a href="#le_role_du_raumdeuter">Le rôle du Raumdeuter</a>
+        <a href="#stats">Stats de Thomas Muller</a>
+    </nav>
+    <p> Vous vous demandez sûrement d'où vient ce mot ? Eh bien je vais vous l'expliquer à travers cette page.</p>
+    <p> Le "Raumdeuter" provient de l'allemand et se traduit par interprèteur d'espace, mais pourquoi parle-t-on de ce mot ? Tout simplement car c'est le rôle que s'est attribué Thomas Muller.</p>
+    <h2 id="qui_est_thomas_muller"> Qui est Thomas Muller ? </h2>
+    <p> Thomas Muller est un joueur de football professionnel allemand né le 13 Septembre 1989 à Weilheim, en Allemagne. Il a commencé sa carrière de jeunesse avec le club local de TSV Pähl, avant de rejoindre le Bayern Munich à l'âge de 10 ans. </p>
+    <p>En 2008, Müller a été promu en équipe première du Bayern Munich et a rapidement impressionné par ses performances. Il est devenu un joueur clé pour le club, remportant de nombreux titres nationaux et internationaux, y compris la Ligue des champions de l'UEFA et plusieurs titres de Bundesliga.</p>
+    <center>
+        <div class="tooltip">
+            <img src="https://imgs.search.brave.com/_E1MmyaP_uDcAduyUjM2gFAMnfF3K9i7lmG7Fncr1rA/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9oaXN0/b3J5b2Zzb2NjZXIu/aW5mby93cC1jb250/ZW50L3VwbG9hZHMv/MjAyMi8xMC90aG9t/YXNfbXVlbGxlcl9i/YXllcm5fZG91Ymxl/LTEwMjR4NTcyLndl/YnA" alt="Thomas Muller avec le trophée de Bundesliga" width="350" class="zoom">
+            <span class="tooltiptext">Thomas Muller avec le trophée de Bundesliga</span>
+        </div>
+    </center>
+    <p>Au niveau international, Müller a fait ses débuts avec l'équipe nationale allemande en 2010. Il a été un membre crucial de l'équipe qui a remporté la Coupe du monde de la FIFA en 2014, terminant meilleur buteur de la compétition avec cinq buts et remportant le Soulier d'Or. Pour en savoir plus sur ce fabuleux joueur, vous pouvez consulter <a href="https://fr.wikipedia.org/wiki/Thomas_M%C3%BCller_(football)">ici</a>.</p>
+    <center>
+        <div class="tooltip">
+            <img src="https://imgs.search.brave.com/FiBfAbP-w7nGj2YRGd6PlLRUPjnYkLHzyBdZO1ha27A/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzE3LzA3/LzFiLzE3MDcxYjVi/MDQwZGVlYWUwZjAz/NjIyZjUwNDIzMjZm/LnBuZw" alt="Thomas Muller avec la WC" width="300" class="zoom">
+            <span class="tooltiptext">Thomas Muller avec la WC</span>
+        </div>
+    </center>
+    <p> Malgré cet énorme palmarès, Thomas Muller reste néanmoins l'un des joueurs les plus sous-estimés du football.</p>
+    <p> Pourquoi un joueur aussi titré est-il sous-estimé ? Tout simplement car il n'a aucune qualité au premier abord, il n'est pas exceptionnel balle au pied et il ne l'est pas plus sans. Ses capacités résident dans l'interprétation d'espace.</p>
+    <h2 id="le_role_du_raumdeuter">Le rôle du Raumdeuter</h2>
+    <p> En tant que tel, le rôle de raumdeuter est assez difficile à cerner. À la base, il s'agit de trouver des espaces dans les zones cruciales du dernier tiers et de recevoir le ballon dans ces petits espaces. Se mettre en position de récupérer le ballon et de se créer une occasion ou de tirer au but est l'élément clé du rôle de raumdeur. Bien qu'il y ait différents facteurs qui contribuent à cette capacité, l'élément le plus important est probablement le timing et l'anticipation. C'est ce que nous allons examiner ci-dessous. </p>
+    <h2>Compétences clés du Raumdeuter</h2>
+    <p> Comme mentionné plus haut, le Raumdeuter a tendance à être un joueur sous-estimé, car la capacité d'interprèteur d'espace à passer sous le radar et à éviter les marqueurs est essentiellement ce qui lui donne son pouvoir. Vous comprendrez mieux avec les compétences de base du rôle... </p>
+    <ul>
+        <li>
+            <h3>Bouger intelligemment</h3>
+            <p>Comme mentionné, le but de ce rôle est de trouver des espaces dans les zones dangereuses du terrain, il va donc sans dire qu'un mouvement intelligent est absolument crucial. Dans cette position, le joueur doit être capable de s'écarter des défenseurs au bon moment et de laisser filer leur adversaire, de sorte que les défenseurs centraux ne réalisent qu'ils ont perdu l'homme qu'une fois que le ballon est déjà au fond des filets.</p>
+        </li>
+        <li>
+            <h3>La perception de l'espace</h3>
+            <p>Cela combine avec le dernier point. Le raumdeuter n'est pas seulement intelligent dans ces déplacements, il doit aussi avoir une perception supérieure de l'endroit où se trouvent les joueurs adverses et ses coéquipiers à tout moment. Cela est crucial lorsqu'il s'agit de prendre la bonne décision dans la surface de réparation, où le timing en une fraction de seconde est très important.</p>
+        </li>
+        <li>
+            <h3>L'anticipation</h3>
+            <p>C'est un peu cliché de dire que les meilleurs joueurs créatifs ont toujours deux ou trois longueurs d'avance sur ceux qui les marquent, mais pour le Raumdeuter c'est tout à fait vrai. Ces joueurs ne s'appuient pas sur les dribbles ou un tir de loin pour battre leurs adversaires ; au contraire, ils trouvent et exploitent l'espace, et il est donc essentiel d'anticiper l'endroit où pourrait apparaître ces espaces.</p>
+        </li>
+        <li>
+            <h3>Leadership</h3>
+            <p>Müller a tendance à avoir une « compréhension télépathique des intentions », ce qui signifie qu'il est excellent pour guider et donner des instructions à ses coéquipiers, en dirigeant leurs mouvements dans un rôle important de leadership.</p>
+        </li>
+        <li>
+            <h3>Finition</h3>
+            <p>Tout cela ne sert à rien si le joueur en question n'est pas capable de conclure une occasion par une passe ou un tir au but décisif. Après s'être aventuré dans des zones dangereuses, le Raumdeuter doit être capable de fournir une bonne finition de manière constante.</p>
+        </li>
+    </ul>
+    <h2 id="stats"> Les stats de Thomas Muller </h2>
+    <table>
+        <tr>
+            <th>Statistique</th>
+            <th>Total</th>
+        </tr>
+        <tr>
+            <td>Matchs joués</td>
+            <td>657</td>
+        </tr>
+        <tr>
+            <td>Buts marqués</td>
+            <td>277</td>
+        </tr>
+        <tr>
+            <td>Passes décisives</td>
+            <td>178</td>
+        </tr>
+    </table>
+    <p> Voici la fin de notre présentation sur le rôle du Raumdeuter et Thomas Muller qui me tient énormément à cœur. Car c'est un joueur très sous-estimé et qui montre que même en étant pas très compétent balle au pied et pas très rapide ou technique, son intelligence et anticipation compense le tout ce qui en fait un joueur très spécial. </p>
+    <center>
+        <div class="tooltip">
+            <img src="https://imgs.search.brave.com/yS87kT-6CTkjnJopTO71ADCWPUazcoYOP3BlK-d3fik/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YTEuZ2lwaHkuY29t/L21lZGlhL1dTME5v/THRObnEzektNbFBF/aS9naXBoeS5naWY_/Y2lkPTc5MGI3NjEx/MGxoMGhsa2V3MHAw/dGt2MnlubjZ1MDUw/M2Q3cXNtOG1zbW9j/MXdtMyZlcD12MV9n/aWZzX3NlYXJjaCZy/aWQ9Z2lwaHkuZ2lm/JmN0PWc.gif" width="300" class="zoom">
+            <span class="tooltiptext">Thomas Muller avec le trophée de Bundesliga</span>
+        </div>
+    </center>
+    <footer>
+        <p>Aller le PSG ❤️</p>
+    </footer>
+    
+    <!-- Bouton pour déclencher l'animation -->
+    <button id="toggleImages">Afficher/Masquer les images</button>
+
+    <script>
+        document.querySelectorAll('section').forEach(section => {
+            section.addEventListener('mouseover', () => {
+                section.classList.add('highlight');
+            });
+
+            section.addEventListener('mouseout', () => {
+                section.classList.remove('highlight');
+            });
+        });
+
+        document.getElementById('toggleImages').addEventListener('click', () => {
+            document.querySelectorAll('img').forEach(img => {
+                if (img.classList.contains('fade')) {
+                    img.classList.remove('fade');
+                    img.classList.add('show');
+                } else {
+                    img.classList.remove('show');
+                    img.classList.add('fade');
+                }
+            });
+        });
+
+        // Initialement masquer toutes les images
+        document.querySelectorAll('img').forEach(img => {
+            img.classList.add('fade');
+        });
+    </script>
+</body>
+</html>
